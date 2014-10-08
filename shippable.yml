@@ -1,7 +1,6 @@
 # Language setting
 language: node_js
 
-#trying
 
 # Version number
 node_js:
