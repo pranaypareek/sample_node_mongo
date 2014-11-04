@@ -29,3 +29,5 @@ after_script:
   - mongo test --eval "db.dropDatabase()"
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
+
+commit_container: pranay/sample_node_mongo
